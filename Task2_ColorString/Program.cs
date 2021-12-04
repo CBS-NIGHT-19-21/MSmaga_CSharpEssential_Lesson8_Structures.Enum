@@ -11,7 +11,7 @@ string? str = Console.ReadLine();
 Console.Write("Please, insert the code of color = ");
 int codeColor = Convert.ToInt16(Console.ReadLine());
 
-Printer.Print(str, codeColor);
+Printer.Print(str!, codeColor);
 
 Console.ReadLine();
 
